@@ -1,3 +1,3 @@
 # excellencepridepowerment.github.io
 
-http://excellencepridepowerment.github.io/
+https://excellenceprideempowerment.github.io/

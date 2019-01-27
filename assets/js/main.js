@@ -92,4 +92,13 @@
 				$intro.prependTo($sidebar);
 			});
 
+		const $comments = $('.fa-comment')
+		
+		$comments.on('click', function (event) {
+			event.preventDefault()
+			const $comment = $(this)
+			$comment.closest('footer').after('<div> <br>I never though of it like that, WOW!!</div>')
+			$comment.closest('footer').after('<div> <br>Thank you EPE this really helped me realize that I am beautiful and I need to inspire others as well to believe in there selves.  </div>')
+			$comment.closest('footer').after('<div>Comments <br>I do believe that we should help others but, I am fine in my own way and I do not need help from anyone. </div>')})
+
 })(jQuery);
